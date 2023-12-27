@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 30px;
+    background-color: #4582ec;
+    color: white;
+}
+.text {
+    height: 30px;
+    width: 100%;
+}
+
+.Search {
+    padding: 20px;
+    margin: 25px;
+    width: 100%;
+    height: 125px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(173, 172, 172);
+}
+.user-profile {
+    overflow: hidden;
+    padding: 20px;
+    margin: 25px;
+    width: 100%;
+    height: 125px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(173, 172, 172);
+
+}
+.profile-image {
+    height: 300px;
+    width: 300px;
+    float: left;
+
+    margin: 25px
+}
+
+.styled-element { /*이름 수정 요망,확대시 border깨짐 */
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.text-element {
+    display: inline;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+
+button {
+    cursor: pointer;
+}
+.view-profile {
+    width: 200px;
+    height: 30px;
+
+    background-color: #4582ec;
+    color: white;
+
+    border: 1px solid;
+    border-radius: 45px;
+}
+.user-profile {
+    padding: 30px;
+}
+
+section {
+    border: 1px solid;
+    border-color: gray;
+}
+
+
+.view {
+    
+    background-color: transparent;
+    border: none; /*??*/
+    color: blue;
+}
+
+
+.styled1, .styled2, .styled3 { /*이름 수정 요망,확대시 border깨짐 */
+    display: inline-block;
+    margin-right: 30px; /* border 테두리 사이즈 */
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+    
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+
+.styled1 {
+    background-color: #3498db;
+}
+.styled2 {
+    background-color: gray;
+}
+.styled3 {
+    background-color: green;
+}
+
+.container {
+    border: 1px solid;
+    border-color: gray;
+}
+
+footer {
+    background-color: rgb(236, 240, 244);
+    margin: 25px;
+    margin-bottom: 30px;
+
+    border: 1px solid gray;
+    border-radius: 5px;
+}

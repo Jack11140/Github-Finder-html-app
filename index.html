@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+    /* 스피너 스타일 */
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="title">GitHub Finder</h2>
+    </header>
+    <section>
+        <div class="Search">
+            <h1>Search GitHub Users</h1>
+            <h2 style="color:gray;">>Enter a username to fetch a user profile and repos</h2>
+            <input class="text" type="text" value="jaewonhimnae" />
+            <input type="text" id="searchUser" class="form-control" placeholder="GitHub Username...">
+            <br>
+            <div id="profile"></div>
+        </div>
+
+        <!-- <div class="User-profile">
+            <img class="profile-image" src="asset/image/picture.jpeg" >
+    
+            <div class="tags">
+                <span class="styled-element">Public Repos: 53</span>
+                <span class="styled-element">Public Gists: 0</span>
+                <span class="styled-element">Followers: 1174</span>
+                <span class="styled-element">Following: 0</span>
+            </div>
+    
+            <div class="info-list">
+                <div class="text-element">Company: null</div><br><br>
+                <div class="text-element">Website/Blog: https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q</div><br><br>
+                <div class="text-element">Location: Korea Bundang-gu</div><br><br>
+                <div class="text-element">Member Since: 2018-04-26T11:07:53Z</div><br><br>
+            </div>
+            <br><br><br><br><br><br>
+            <button class="view-profile" type="button">view profile</button>
+        </div>
+        <h3>Latest Repos</h3>
+    <div class="Latest-Repos">
+        <div class="container">
+            <button class="view" type="button">react-disney-deploy-test</button>
+            <span class="styled1">Stars: 1</span>
+            <span class="styled2">Watchers: 1</span>
+            <span class="styled3">Forks: undefined</span>
+            <br>
+        </div>
+        <div class="container">
+            <button class="view" type="button">react-tictactoe-deploy-test</button>
+            <span class="styled1">Stars: 1</span>
+            <span class="styled2">Watchers: 1</span>
+            <span class="styled3">Forks: undefined</span>
+            <br>
+        </div>
+        <div class="container">
+            <button class="view" type="button">react-tictactoe-deploy</button>
+            <span class="styled1">Stars: 1</span>
+            <span class="styled2">Watchers: 1</span>
+            <span class="styled3">Forks: undefined</span>
+            <br>
+        </div>
+        <div class="container">
+            <button class="view" type="button">react-tictactoe-ing</button>
+            <span class="styled1">Stars: 1</span>
+            <span class="styled2">Watchers: 1</span>
+            <span class="styled3">Forks: undefined</span>
+            <br>
+        </div>
+        <div class="container">
+            <button class="view" type="button"> react-tictactoe-app</button>
+            <span class="styled1">Stars: 1</span>
+            <span class="styled2">Watchers: 1</span>
+            <span class="styled3">Forks: undefined</span>
+    
+        </div> -->
+    </section>
+    
+
+
+    <footer>
+        GutHub Finder ⓒ
+    </footer>
+
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
